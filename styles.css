@@ -131,6 +131,14 @@ body {
 .main-text .first_header{
     margin-left: 335px;
 }
+
+.main-text .second_header{
+    margin-left: 485px;
+}
+
+.main-text .second_header .blue-text {
+    color: var(--secondary);
+}
 /* NAV */
 
 .logo-nav {
