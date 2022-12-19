@@ -26,7 +26,7 @@
     --black-25: rgba(42, 44, 49, 0.25);
     --black-5: rgba(42, 44, 49, 0.05);
 
-    --white: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #FFFFFF;
+    --white: rgba(0, 0, 0, 0.1);
 
     --error: #D71C44;
 
@@ -98,4 +98,22 @@ h6 {
     font-size: 15px;
     line-height: 30px;
     color: #2A2C31;
+}
+
+/* MAIN */
+
+body {
+    background-color: var(--white);
+}
+
+/* NAV */
+
+.logo-nav {
+    width: 264.5px;
+    height: 205px;
+    margin-left: 126px;
+}
+
+.navigation {
+    margin-top: 45px;
 }
