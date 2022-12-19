@@ -1,0 +1,101 @@
+/*  IMPORT FONTS
+    FONTS: 
+        * Roboto
+        * Lato
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* VARIABLES */
+
+
+:root {
+    --secondary: #2F63DC;
+    --primary: #6150DF;
+    --color3: #905BC9;
+    --color4: #D921C1;
+    --color5: #EB3581;
+    --soft-purple: #D6CAE3;
+
+    --gradient: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(122.7deg, #6D5FD3 17.3%, #CC5AA3 69.55%);
+
+
+    --black: #2A2C31;
+    --black-75: rgba(42, 44, 49, 0.75);
+    --black-50: rgba(42, 44, 49, 0.5);
+    --black-25: rgba(42, 44, 49, 0.25);
+    --black-5: rgba(42, 44, 49, 0.05);
+
+    --white: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #FFFFFF;
+
+    --error: #D71C44;
+
+
+}
+
+/* TYPOGRAPHY */
+
+p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #2A2C31;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 119px;
+    line-height: 144px;
+    letter-spacing: 0.02em;
+    color: #2A2C31;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 84px;
+    line-height: 30px;
+    color: #2A2C31;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 30px;
+    color: #2A2C31;
+}
+
+h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 42px;
+    color: #2A2C31;
+}
+
+h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+    color: #2A2C31;
+}
+
+h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    color: #2A2C31;
+}
