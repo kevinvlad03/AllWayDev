@@ -114,6 +114,7 @@ body {
 .social-icons {
     margin-top: 76px;
     margin-left: 117.88px;
+    margin-right: 178px;
 }
 
 .social-icons img{
@@ -125,6 +126,10 @@ body {
 .social-icons .twitter {
     width: 58.06px;
     height: 46.45px;
+}
+
+.main-text .first_header{
+    margin-left: 335px;
 }
 /* NAV */
 
