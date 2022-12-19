@@ -28,6 +28,8 @@
 
     --white: rgba(0, 0, 0, 0.1);
 
+    --white-text: #FFFFFF;
+
     --error: #D71C44;
 
 
@@ -104,6 +106,7 @@ h6 {
 
 body {
     background-color: var(--white);
+    overflow: hidden;
 }
 
 .inline-headers h5{
@@ -144,31 +147,37 @@ body {
 
 .btn-pink {
     background: var(--color5);
-    padding: 14px 30px;
-    border-radius: 9px;
-    width: 250px;
-    font-family: 'Roboto';
+    border-radius: 50px;
+    color: var(--white-text);
+    font-family: 'Lato';
     font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 33px;
-    color: #ffffff;
-    background: var(--color5);
+    font-weight: 700;
+    font-size: 21px;
+    padding: 25px 0px 25px 48px;
+}
+
+.first_button, .second_button {
     box-shadow: 0 11px 8px -4px #EA77BB;
 }
 
+.first_button img{
+    margin-left: 16px;
+    margin-right: 48px;
+}
+
 .buttons {
-    margin-left: 27vw;
+    margin-left: -7.5vw;
     margin-top: 5vh;
 }
 
 .buttons .second_button {
     margin-left: 3vw;
+    padding: 25px 81.5px 25px 81.5px;
 }
 
+
 .btn-pink:hover {
-    background: var(--color5);
-    box-shadow: 0 11px 8px -4px #EA77BB;
+    background: var(--white-text);
 }
 
 /* NAV */
