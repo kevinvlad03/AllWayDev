@@ -106,6 +106,21 @@ body {
     background-color: var(--white);
 }
 
+.inline-headers h5{
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.social-icons {
+    margin-top: 76px;
+    margin-left: 117.88px;
+}
+
+.social-icons img{
+    margin-left: 32px;
+    width: 47px;
+    height: 46px;
+}
 /* NAV */
 
 .logo-nav {
