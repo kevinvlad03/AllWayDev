@@ -119,15 +119,23 @@ body {
 
 .social-icons img{
     margin-left: 32px;
-    width: 47px;
-    height: 46px;
+    width: 30px;
+    height: 30px;
 }
 
 .social-icons .twitter {
-    width: 58.06px;
-    height: 46.45px;
+    width: 37px;
+    height: 30px;
 }
 
+
+/* MAIN TEXT */
+@media screen and (max-width: 768px) {
+    .main-text {
+        margin-left: 0;
+    }
+}
+    
 .main-text .first_header{
     margin-left: -15vw;
 }
@@ -139,8 +147,9 @@ body {
 .main-text .second_header .blue-text {
     color: var(--secondary);
 }
-/* NAV */
 
+
+/* NAV */
 .logo-nav {
     width: 264.5px;
     height: 205px;
