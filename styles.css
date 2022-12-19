@@ -41,8 +41,8 @@ p {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 500;
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 2.8vh;
+    line-height: 3.2vh;
     letter-spacing: 0.02em;
     color: #2A2C31;
 }
@@ -51,8 +51,8 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
-    font-size: 119px;
-    line-height: 144px;
+    font-size: 11.9vh;
+    line-height: 14.4vh;
     letter-spacing: 0.02em;
     color: #2A2C31;
 }
@@ -61,8 +61,8 @@ h2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
-    font-size: 84px;
-    line-height: 30px;
+    font-size: 8.4vh;
+    line-height: 3.0vh;
     color: #2A2C31;
 }
 
@@ -70,8 +70,8 @@ h3 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 60px;
-    line-height: 30px;
+    font-size: 6.0vh;
+    line-height: 3.0vh;
     color: #2A2C31;
 }
 
@@ -79,8 +79,8 @@ h4 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
-    font-size: 42px;
-    line-height: 42px;
+    font-size: 4.2vh;
+    line-height: 4.2vh;
     color: #2A2C31;
 }
 
@@ -88,8 +88,8 @@ h5 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
-    font-size: 21px;
-    line-height: 30px;
+    font-size: 2.1vh;
+    line-height: 3.0vh;
     color: #2A2C31;
 }
 
@@ -97,8 +97,8 @@ h6 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
-    line-height: 30px;
+    font-size: 1.5vh;
+    line-height: 3.0vh;
     color: #2A2C31;
 }
 
@@ -115,20 +115,20 @@ body {
 }
 
 .social-icons {
-    padding-top: 76px;
-    padding-left: 117.88px;
-    padding-right: 178px;
+    padding-top: 7.6vh;
+    padding-left: 11.788vh;
+    padding-right: 17.8vh;
 }
 
 .social-icons img{
-    margin-left: 32px;
-    width: 30px;
-    height: 30px;
+    margin-left: 3.2vh;
+    width: 3.0vh;
+    height: 3.0vh;
 }
 
 .social-icons .twitter {
-    width: 37px;
-    height: 30px;
+    width: 3.7vh;
+    height: 3.0vh;
 }
 
     
@@ -147,22 +147,22 @@ body {
 
 .btn-pink {
     background: var(--color5);
-    border-radius: 50px;
+    border-radius: 5.0vh;
     color: var(--white-text);
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
-    font-size: 21px;
-    padding: 25px 0px 25px 48px;
+    font-size: 2.1vh;
+    padding: 2.5vh 0vh 2.5vh 4.8vh;
 }
 
 .first_button, .second_button {
-    box-shadow: 0 11px 8px -4px #EA77BB;
+    box-shadow: 0 1.1vh 0.8vh -0.4vh #EA77BB;
 }
 
 .first_button img{
-    margin-left: 16px;
-    margin-right: 48px;
+    margin-left: 1.6vh;
+    margin-right: 4.8vh;
 }
 
 .buttons {
@@ -172,21 +172,23 @@ body {
 
 .buttons .second_button {
     margin-left: 3vw;
-    padding: 25px 81.5px 25px 81.5px;
+    padding: 2.5vh 8.15vh 2.5vh 8.15vh;
 }
 
-
-.btn-pink:hover {
-    background: var(--white-text);
+.first_button:hover, .second_button:hover {
+    cursor: pointer;
+    background: var(--color5);
+    color: var(--white-text);
+    box-shadow: 0 1.1vh 0.8vh -0.2vh #EA77BB;
 }
 
 /* NAV */
 .logo-nav {
-    width: 264.5px;
-    height: 205px;
-    margin-left: 126px;
+    width: 26.45vh;
+    height: 20.5vh;
+    margin-left: 12.6vh;
 }
 
 .navigation {
-    margin-top: 45px;
+    margin-top: 4.5vh;
 }
