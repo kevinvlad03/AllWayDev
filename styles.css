@@ -112,9 +112,9 @@ body {
 }
 
 .social-icons {
-    margin-top: 76px;
-    margin-left: 117.88px;
-    margin-right: 178px;
+    padding-top: 76px;
+    padding-left: 117.88px;
+    padding-right: 178px;
 }
 
 .social-icons img{
@@ -128,13 +128,6 @@ body {
     height: 30px;
 }
 
-
-/* MAIN TEXT */
-@media screen and (max-width: 768px) {
-    .main-text {
-        margin-left: 0;
-    }
-}
     
 .main-text .first_header{
     margin-left: -15vw;
@@ -148,6 +141,35 @@ body {
     color: var(--secondary);
 }
 
+
+.btn-pink {
+    background: var(--color5);
+    padding: 14px 30px;
+    border-radius: 9px;
+    width: 250px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    color: #ffffff;
+    background: var(--color5);
+    box-shadow: 0 11px 8px -4px #EA77BB;
+}
+
+.buttons {
+    margin-left: 27vw;
+    margin-top: 5vh;
+}
+
+.buttons .second_button {
+    margin-left: 3vw;
+}
+
+.btn-pink:hover {
+    background: var(--color5);
+    box-shadow: 0 11px 8px -4px #EA77BB;
+}
 
 /* NAV */
 .logo-nav {
